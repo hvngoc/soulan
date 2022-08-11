@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.once.soul.lan.first.MainFragment"
+        android:name="com.once.soul.presentation.first.MainFragment"
         android:label="MainFragment">
         <action
             android:id="@+id/main_to_next"
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/nextFragment"
-        android:name="com.once.soul.lan.next.NextFragment"
+        android:name="com.once.soul.presentation.next.NextFragment"
         android:label="NextFragment" />
 
 </navigation>

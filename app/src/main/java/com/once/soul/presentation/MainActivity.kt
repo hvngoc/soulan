@@ -1,4 +1,4 @@
-package com.once.soul.lan
+package com.once.soul.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

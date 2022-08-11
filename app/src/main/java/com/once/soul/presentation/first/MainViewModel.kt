@@ -1,4 +1,4 @@
-package com.once.soul.lan.first
+package com.once.soul.presentation.first
 
 import androidx.lifecycle.ViewModel
 

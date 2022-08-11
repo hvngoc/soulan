@@ -1,4 +1,4 @@
-package com.once.soul.lan
+package com.once.soul.presentation
 
 import org.junit.Test
 

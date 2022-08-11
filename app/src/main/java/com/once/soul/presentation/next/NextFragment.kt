@@ -1,11 +1,11 @@
-package com.once.soul.lan.next
+package com.once.soul.presentation.next
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.once.soul.lan.R
+import com.once.soul.presentation.R
 
 class NextFragment : Fragment() {
 
