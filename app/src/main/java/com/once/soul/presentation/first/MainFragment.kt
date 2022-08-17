@@ -14,8 +14,6 @@ import com.once.soul.presentation.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
 
-    ////////////////////////////////////////////////////////////////
-    // Some data for the Carousel examples...
     var images = intArrayOf(
         R.drawable.bryce_canyon,
         R.drawable.cathedral_rock,
