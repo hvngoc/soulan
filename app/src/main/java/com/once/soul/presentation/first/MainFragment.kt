@@ -9,6 +9,7 @@ import android.widget.ImageView
 import androidx.constraintlayout.helper.widget.Carousel
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.once.soul.presentation.R
 import com.once.soul.presentation.databinding.FragmentMainBinding
 
@@ -54,6 +55,12 @@ class MainFragment : Fragment() {
             }
 
         })
+
+        binding.nextNext.setOnClickListener {
+            val action = MainFragmentDirections.mainToNext()
+            findNavController().navigate(action)
+        }
+
         return binding.root
     }
 }
