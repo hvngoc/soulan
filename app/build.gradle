@@ -11,6 +11,7 @@ kapt {
 
 android {
     compileSdk 32
+    namespace 'com.once.soul.presentation'
 
     defaultConfig {
         applicationId "com.once.soul.lan"
